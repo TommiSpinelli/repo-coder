@@ -64,6 +64,7 @@ img {
 /* === Listas === */
 
 ul {
+    display: flex;
     list-style-type: none;
     padding: 0;
 }
@@ -107,3 +108,23 @@ b {
     cursor: zoom-in;
 }
 
+.flex-container {
+    display: flex;                  
+    flex-direction: row;            
+    justify-content: center;       
+    align-items: center;            
+    gap: 10px;                      
+    height: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.flex-item {
+    background-color: #053105;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    flex: 1;                        
+    max-width: 100px;               
+}
