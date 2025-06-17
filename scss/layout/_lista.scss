@@ -1,0 +1,32 @@
+nav ul {
+  list-style: none;
+  @include flex-center(20px);
+  margin-top: 10px;
+  padding: 0;
+}
+
+nav ul li a {
+  color: $color-blanco;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+
+  li {
+    margin-bottom: 30px;
+    border-bottom: 1px solid $color-borde;
+    padding-bottom: 20px;
+  }
+}
+
+b {
+  @extend %bloque-centrado;
+}
