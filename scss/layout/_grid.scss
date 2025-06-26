@@ -1,0 +1,16 @@
+.productos-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.productos-grid div {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .productos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

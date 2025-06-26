@@ -2,6 +2,7 @@
 @import 'layout/_header';
 @import 'layout/_lista';
 @import 'layout/_maps';
+@import 'layout/_grid';
 
 * {
   box-sizing: border-box;
@@ -138,4 +139,4 @@ b {
     font-size: 20px;
     flex: 1;                        
     max-width: 100px;               
-}    
+}     
